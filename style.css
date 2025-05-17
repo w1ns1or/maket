@@ -1,12 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
 body {
-    margin: 0;
+    margin: 0; */
     padding: 0;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     font-family: "PT Sans", sans-serif;
+
+
+
+
 }
+
+
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.up{
+    text-decoration: none;
+    color: black;
+    font-family: PT Sans Caption;
+}
+.cont-H{
+    /* margin-top: 69px;
+    margin-left: 96px; */
+    /* margin-right: 1508px;
+    margin-bottom: 1013px; */
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    gap: 32px;
+}
+.cont-M{
+    width:40%;
+    height:90%;
+}
+.middle{
+    font-family: PT Serif;
+    font-size: 144px;
+}
+img{
+    /* margin-top: 268px;
+    margin-left: 1066px;
+    margin-right: 96px;
+    margin-bottom: 134px;     */
+}
+
+
 .osn{
     font-family: PT Serif;
     font-size: 96px;
@@ -17,36 +71,41 @@ body {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 
+
 }
 .pole{
     width:100vw;
-    height: 100vh;
+    /* height: 100vh; */
+    padding: 5vh;
     top: 1422px;
     gap: 0px;
     opacity: 0px;
     background: #E9ADC89E;
 
+
 }
 .okno{
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     top: 1208px;
     gap: 0px;
     opacity: 0px;
 
+
 }
 .foto1{
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 15vw;
     /* left: 440px; */
     gap: 0px;
-    border-radius: 32px 0px 0px 0px;
+    border-radius: 32px;
     opacity: 0px;
+
 
 }
 .foto{
     display:flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
 }
 .razmer{
     display:flex;
